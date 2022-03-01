@@ -37,3 +37,13 @@ desired temperature.
 Special Considerations:
 The Steinhart-Hart equation and its constants is what helps us obtain the temperature. Without
 it, we will only be getting a ADC value from the KY-013 sensor. 
+
+Source File Description:
+● main.c – This file contains all the finite state machines that make the system work.
+● temperature.h – Header file with functions to convert temperature analog sensor input
+either to Celsius or Fahrenheit. Steinhart-Hart function and its constants to convert ky013 analog input into Kelvin obtained from https://arduinomodules.info/ky-013-analogtemperature-sensor-module/
+● temp_display.h – Header file with void functions to visualize temperature either in
+Fahrenheit or Celsius.
+● io.h – Header file for LCD display. Code obtained from URC CS120B course
+● io.c – For LCD display. Code obtained from URC CS120B course
+● Timer.h – Header file for time control. Code obtained from URC CS120B course
