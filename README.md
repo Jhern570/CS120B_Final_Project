@@ -39,6 +39,7 @@ The Steinhart-Hart equation and its constants is what helps us obtain the temper
 it, we will only be getting a ADC value from the KY-013 sensor. 
 
 Source File Description:
+
 ● main.c – This file contains all the finite state machines that make the system work.
 
 ● temperature.h – Header file with functions to convert temperature analog sensor input
